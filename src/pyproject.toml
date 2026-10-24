@@ -1,0 +1,28 @@
+[project]
+name = "flightplanner"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "AbdelrahmanHaggag13", email = "abdelrahmanhagage650@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "airportsdata>=20260905",
+    "langchain>=1.4.3",
+    "langchain-community>=0.4.2",
+    "langchain-openai>=1.6.7",
+    "langchain-tavily>=0.2.18",
+    "langgraph>=1.2.12",
+    "psycopg-pool>=3.3.3",
+    "psycopg[binary]>=3.3.6",
+    "pycountry>=26.2.16",
+    "python-dotenv>=1.2.4",
+    "tavily>=1.1.0",
+    "tavily-python>=0.8.4",
+]
+
+[project.scripts]
+flightplanner = "flightplanner:main"
+
+
